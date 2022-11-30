@@ -1,6 +1,6 @@
 package Command;
 
-public class CLightOn implements Command{
+public class CLightOn implements Command {
 
     private final Light light;
 
@@ -18,3 +18,4 @@ public class CLightOn implements Command{
         light.off();
     }
 }
+
